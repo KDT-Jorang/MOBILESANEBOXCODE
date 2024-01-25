@@ -1,6 +1,8 @@
-# MOBILESANEBOXCODE
-preprocessing.py 사용법  
-폴더를 생성후 폴더안에 apk 파일 1개와 apktool.jar 파일을 집어 넣습니다.
+# MOBILESANEBOXCODE  
+
+
+###preprocessing.py 사용법  
+폴더를 생성후 폴더안에 apk 파일 1개와 apktool.jar 파일을 집어 넣습니다.  
 폴더를 만들때 폴더 이름에 빈칸과 한글을 포함하지 않은 단어로 생성하세요. 코드 검증 과정중에 폴더 이름에 빈칸이 있을때 오류가 발생하였던 경우가 있습니다.  
 코드를 동작시키면 폴더 내부에 있는 apk 파일이 자동으로 선정되고 폴더 내부에 있는 파일명을 지정한 다음에 암호화 해제 방식과 키를 입력하면 자동으로 사인이 생성된 app-signed.apk 파일이 만들어집니다  
 
