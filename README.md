@@ -4,7 +4,7 @@
 1.. Android studio & app tools, 지니모션, 파이썬 3.10 버전,openssl,JDK(11),visual studio build-tools 설치  
 2. SAMPLE.APK를 기준으로 에뮬레이터는 안드로이드 9버전으로 설정할것  
 3. Custom API Documentation 문서에 있는 구글드라이브 링크를 열어 그 안에 있는 압축파일을 풀고 주소창에 cmd라 입력하면 나오는 커맨드라인창에  run poetry , setup.bat, run.bat을 입력한다.   
-4. 인터넷을 켜서 주소창에 127.0.0.1:8000이라 입력한다. 
+4. 인터넷을 켜서 주소창에 127.0.0.1:8000이라 입력한다.  
 5. 동적분석 및 정적분석이 되지 않으면 https://github.com/m9rco/Genymotion_ARM_Translation/blob/master/package/Genymotion-ARM-Translation_for_9.0.zip 이 사이트에서 Genymotion-ARM-Translation_for_9.0.zip을 다운 받아 켜진 에뮬레이터에 드래그앤 드랍 후 다시 시도할것  
 
 
