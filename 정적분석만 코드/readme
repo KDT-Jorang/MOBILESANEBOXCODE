@@ -1,2 +1,24 @@
-압축파일에 같이 들어가 있습니다 
-혹시 몰라서 올립니다.
+환경설정 
+conda 
+python 3.11
+java apktool : apktool_2.9.2
+
+
+
+""" 스크립트 의도
+1. 타겟 파일 입력
+2. 파일 검사 시작
+3. 파일에서 .dex 로 끝나는 파일은 모두 복호화 시도
+4. 복호화 결과의 시작 부분이 dex로 시작한다면 정상 해독으로 간주하고 그 파일들만 저장
+5. 저장된 파일 다시 repack
+6. 정적, 동적 분석 실행 """
+
+""" 사용법
+1. pip install cryptography 설치 + mobsf 는 실행 중이어야 합니다.
+2. file_analysis 함수에서 java apktool 명령어 수정 (버전정보, 파일 위치 정보)
+3. start_analyse에서 원하는 디렉토리와 타켓 수정 
+4. kikiki.py에서 APIKey 수정 필요할 수도 있습니다.
+5. kikiki.py에서 pdf 저장하는 곳 위치를 바꾸셔야 합니다."""
+
+apktool은 타켓과 같은 곳에 있어야 합니다. 
+zip파일로 시작하는 이유는 강사님이 zip에 있는 apk를 java-apktool로 압축해제하는건 일반 압축해제와 다른 기능을 한다고 했기 때문입니다.
