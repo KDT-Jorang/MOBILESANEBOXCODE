@@ -4,7 +4,8 @@
 1.. Android studio & app tools, 지니모션, 파이썬 3.10 버전,openssl,JDK(11),visual studio build-tools 설치  
 2. SAMPLE.APK를 기준으로 에뮬레이터는 안드로이드 9버전으로 설정할것  
 3. Custom API Documentation 문서에 있는 구글드라이브 링크를 열어 그 안에 있는 압축파일을 풀고 주소창에 cmd라 입력하면 나오는 커맨드라인창에  run poetry , setup.bat, run.bat을 입력한다.   
-4. 인터넷을 켜서 주소창에 127.0.0.1:8000이라 입력한다.  
+4. 설치가 제대로 되었는지 확인하기 위해 인터넷 브라우저를 킨다음에 주소창에 127.0.0.1:8000이라 입력한다.  
+5. 앱을 드레그 앤 드롭을 해본다
 5. 동적분석 및 정적분석이 되지 않으면 https://github.com/m9rco/Genymotion_ARM_Translation/blob/master/package/Genymotion-ARM-Translation_for_9.0.zip 이 사이트에서 Genymotion-ARM-Translation_for_9.0.zip을 다운 받아 켜진 에뮬레이터에 드래그앤 드랍 후 다시 시도할것  
 
 
@@ -14,8 +15,11 @@
 3. 코드를 동작시키면 폴더 내부에 있는 apk 파일이 자동으로 선정되고 APK파일 내부에서 암호화를 해제할 파일명을 지정한 다음에 암호화 해제 방식과 키를 입력하면 암호화 해제하고 덮어씌운 파일이 포함되고 자동으로 사인이 생성된 app-signed.apk 파일이 만들어집니다  
 
 ### analysis.py 사용법  
-1. analysis.py의 APIKEY를 본인의 APIKEY에 맞게 변경     
-2. analysis.py를 실행후에 파일경로입력  
+1. analysis.py의 APIKEY를 본인의 APIKEY에 맞게 변경
+2. Mobile-Security-Framework-MobSF-master가 설치된 폴더를 열고 그 주소창에 cmd라 입력하면 명령 프롬포트 창에 run.bat이라 입력한다.
+3. 웹 페이지를 열고 127.0.0.1:8000이라 입력한다.
+4. 분석할 앱을 드래그앤 드랍을 한다.
+5. analysis.py를 실행후에 분석할 apk파일경로입력  
 
 ### 기능  
 1. 정적 분석  
