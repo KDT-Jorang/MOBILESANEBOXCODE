@@ -6,7 +6,7 @@
 3. Custom API Documentation 문서에 있는 구글드라이브 링크를 열어 그 안에 있는 압축파일을 풀고 주소창에 cmd라 입력하면 나오는 커맨드라인창에  run poetry , setup.bat, run.bat을 입력한다.   
 4. 설치가 제대로 되었는지 확인하기 위해 인터넷 브라우저를 킨다음에 주소창에 127.0.0.1:8000이라 입력한다.  
 5. 앱을 드레그 앤 드롭을 해본다  
-5. 동적분석 및 정적분석이 되지 않으면 https://github.com/m9rco/Genymotion_ARM_Translation/blob/master/package/Genymotion-ARM-Translation_for_9.0.zip 이 사이트에서 Genymotion-ARM-Translation_for_9.0.zip을 다운 받아 켜진 에뮬레이터에 드래그앤 드랍 후 다시 시도할것  
+6. 동적분석 및 정적분석이 되지 않으면 https://github.com/m9rco/Genymotion_ARM_Translation/blob/master/package/Genymotion-ARM-Translation_for_9.0.zip 이 사이트에서 Genymotion-ARM-Translation_for_9.0.zip을 다운 받아 켜진 에뮬레이터에 드래그앤 드랍 후 다시 시도할것  
 
 
 ### preprocessing.py 사용법  
