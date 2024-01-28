@@ -18,8 +18,8 @@
 1. analysis.py의 APIKEY를 본인의 APIKEY에 맞게 변경
 2. Mobile-Security-Framework-MobSF-master가 설치된 폴더를 열고 그 주소창에 cmd라 입력하면 명령 프롬포트 창에 run.bat이라 입력한다.
 3. 웹 페이지를 열고 127.0.0.1:8000이라 입력한다.
-4. 분석할 앱을 드래그앤 드랍을 한다.
-5. analysis.py를 실행후에 암호화해제하지 않은 apk파일경로입력  
+4. 지니에뮬레이터를 켠다.
+5. analysis.py를 실행후에 암호화 해제하지 않은 apk파일경로입력  
 
 ### 기능  
 1. 정적 분석  
